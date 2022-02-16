@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Cricfeed</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <meta http-equiv="x-ua-compatible" content="IE=10">
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <link rel="stylesheet" href="../css/bootstrap_limitless.min.css">
+      <link rel="stylesheet" href="../css/layout.min.css">
+      <link rel="stylesheet" href="../css/components.min.css">
+      <link rel="stylesheet" href="../css/font/fontawesome/styles.min.css">
+      <link rel="stylesheet" href="../css/font/icomoon/styles.css">
+      <link rel="stylesheet" href="../css/font/flaticons/flaticon.css">
+      <link rel="stylesheet" href="../css/font/fonts/fonts.css">
+      <link rel="stylesheet" href="../css/custom.css">
+      <link rel="stylesheet" href="../css/new_custom.css">
+      <script type="text/javascript" src="../js/jquery.min.js"></script>
+      <script type="text/javascript" src="../js/blockui.min.js"></script>
+      <script type="text/javascript" src="../js/uniform.min.js"></script>
+      <script type="text/javascript" src="../js/app.js"></script>
+      <script type="text/javascript" src="../js/jquery.ui.min.js"></script>
+      <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="../js/jquery.mmenu.min.all.js"></script> 
+      <script type="text/javascript" src="../js/validate.min.js"></script>
+      <script type="text/javascript" src="../js/bootstrap_multiselect.js"></script>
+      <script type="text/javascript" src="../js/select2.min.js"></script> 
+      <script type="text/javascript" src="../js/navbar_multiple.js"></script>
+      <script type="text/javascript" src="../js/navbar_multiple_sticky.js"></script>
+      <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+      <script type="text/javascript" src="../js/bootstrap-datepicker.js"></script>
+   </head>
+   <body id="body">
+    <header class="custom-header" id="custom-header">
+        <div class="container">
+            <div class="navbar navbar-expand-lg navbar-light bg-blue navbar-sticky border-0">
+
+                <div class="navbar-brand">
+                    <a href="javascript:void(0);" class="d-inline-block">
+                        <img src="../images/Cricfeed.png" alt="Cricfeed">
+                    </a>
+                </div>
+                <div class="d-lg-none">
+                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-navigation" aria-expanded="false">
+                        <i class="flaticon-null"></i>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar-navigation">
+                    <div class="d-lg-none d-lg-block jb_front_nav_close">
+                        <button type="button" class="navbar-toggler collapsed jb_front_nav_close">
+                            <i class="flaticon-cancel"></i>
+                        </button>
+                    </div>
+                    <ul class="p-0 nav navbar-nav ml-sm-auto ml-xl-auto align-items-baseline align-items-md-baseline align-items-lg-center">
+                        <li class="nav-item float-left"><a href="javascript:void(0);" class="navbar-nav-link position-relative text-white text-medium font-light">Live Scores</a></li>
+                        <li class="nav-item float-left"><a href="javascript:void(0);" class="navbar-nav-link position-relative text-white text-medium font-light">Schedule </a></li>
+                        <li class="nav-item float-left"><a href="javascript:void(0);" class="navbar-nav-link position-relative text-white text-medium font-light">Archives</a></li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                         News </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">All Stories</a></li>
+                                <li><a href="javascript:void(0);">Latest News</a></li>
+                                <li><a href="javascript:void(0);">Topics</a></li>
+                                <li><a href="javascript:void(0);">Spotlight</a></li>
+                                <li><a href="javascript:void(0);">Opinions</a></li>
+                                <li><a href="javascript:void(0);">Specials</a></li>
+                                <li><a href="javascript:void(0);">Stats & Analysis</a></li>
+                                <li><a href="javascript:void(0);">Interviews</a></li>
+                                <li><a href="javascript:void(0);">Live Blogs</a></li>
+                                <li><a href="javascript:void(0);">Harsha Bhogle</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                        Series </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">ICC Womens T20 World Cup 2020</a></li>
+                                <li><a href="javascript:void(0);">Australia tour of South Africa, 2020</a></li>
+                                <li><a href="javascript:void(0);">West Indies tour of Sri Lanka, 2020</a></li>
+                                <li><a href="javascript:void(0);">Zimbabwe tour of Bangladesh, 2020</a></li>
+                                <li><a href="javascript:void(0);">Pakistan Super League 2020</a></li>
+                                <li><a href="javascript:void(0);">Ranji Trophy 2019-20</a></li>
+                                <li><a href="javascript:void(0);">All Series »</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                           Teams </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0 mega-menu-teams">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="inner-content">
+                                            <h6 class="mega-menu-heading pb-0 text-blue">Test Teams</h6>
+                                            <div class="menu-list">
+                                                <a href="javascript:void(0);" class="d-block">India</a>
+                                                <a href="javascript:void(0);" class="d-block">Ireland</a>
+                                                <a href="javascript:void(0);" class="d-block">Pakistan</a>
+                                                <a href="javascript:void(0);" class="d-block">Australia</a>
+                                                <a href="javascript:void(0);" class="d-block">Sri Lanka</a>
+                                                <a href="javascript:void(0);" class="d-block">Bangladesh</a>
+                                                <a href="javascript:void(0);" class="d-block">England</a>
+                                                <a href="javascript:void(0);" class="d-block">West Indies</a>
+                                                <a href="javascript:void(0);" class="d-block">South Africa</a>
+                                                <a href="javascript:void(0);" class="d-block">Zimbabwe</a>
+                                                <a href="javascript:void(0);" class="d-block">New Zealand</a>
+                                                <a href="javascript:void(0);" class="d-block">Afghanistan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="inner-content">
+                                            <h6 class="mega-menu-heading pb-0 text-blue">Associate</h6>
+                                            <div class="menu-list">
+                                                <a href="javascript:void(0);" class="d-block">Iran</a>
+                                                <a href="javascript:void(0);" class="d-block">Italy</a>
+                                                <a href="javascript:void(0);" class="d-block">Botswana</a>
+                                                <a href="javascript:void(0);" class="d-block">Belgium</a>
+                                                <a href="javascript:void(0);" class="d-block">Namibia</a>
+                                                <a href="javascript:void(0);" class="d-block">Denmark</a>
+                                                <a href="javascript:void(0);" class="d-block">Singapore</a>
+                                                <a href="javascript:void(0);" class="d-block">Netherlands</a>
+                                                <a href="javascript:void(0);" class="d-block">Bermuda</a>
+                                                <a href="javascript:void(0);" class="d-block">Canada</a>
+                                                <a href="javascript:void(0);" class="d-block">Uganda</a>
+                                                <a href="javascript:void(0);" class="d-block">Scotland</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                           Videos </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">All Videos</a></li>
+                                <li><a href="javascript:void(0);">Categories</a></li>
+                                <li><a href="javascript:void(0);">Playlists</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                           Rankings </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">All Videos</a></li>
+                                <li><a href="javascript:void(0);">Categories</a></li>
+                                <li><a href="javascript:void(0);">Playlists</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                           More </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">Photos</a></li>
+                                <li><a href="javascript:void(0);">Mobile Apps</a></li>
+                                <li><a href="javascript:void(0);">Careers</a></li>
+                                <li><a href="javascript:void(0);">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left search-box position-relative">
+                            <input type="text" name="search" aria-required="true" class="form-control pl-2" placeholder="Search" required="">
+                            <i class="flaticon-search search-icon position-absolute icon-mr"></i>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+      <div class="main_page" id="news-page">
+         <!-- main content -->
+         <div class="page-content">
+            <div class="content-wrapper">
+                <div class="block-header">
+                    <div class="container">
+                        <div class="mega-menu-list bg-mega-menu">
+                            <div class="row align-items-center">
+                               <div class="col-9 col-md-10 col-lg-11">
+                                    <ul class="mega-menu d-flex p-0 m-0 bg-black">
+                                        <li><a href="javascript:void(0);" class="text-white d-block bg-light-black">MATCHES</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">USA vs OMAN- Live</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">NZ vs IND - NZ Won</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">PAK vs BAN - PAK Won</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">RSA vs  ENG - ENG Won</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">AUS vs INDW - Previe...</a></li>
+                                    </ul>
+                               </div> 
+                               <div class="col-3 col-md-2 col-lg-1">
+                                <button class="mega-all-btn bg-transparent shadow-none border-0 text-white btn-filter font-bold close-btn d-flex align-items-center justify-content-center">
+                                   <span class="mega-btn-text">All</span>
+                                   <i class="flaticon-download icon-mr"></i></button>
+                           </div>
+                            </div>
+                            <div class="matches mt-0">
+                                <div class="mega-dropdown-tab">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                          <a class="nav-link text-white bg-transparent border-top-0 border-left-0 border-right-0 active" data-toggle="tab" href="#all">All</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-white bg-transparent border-top-0 border-left-0 border-right-0" data-toggle="tab" href="#live">Live</a>
+                                        </li>  
+                                        <li class="nav-item">
+                                          <a class="nav-link text-white bg-transparent border-top-0 border-left-0 border-right-0" data-toggle="tab" href="#today">Today</a>
+                                        </li>
+                                      </ul>
+                                      
+                                      <!-- Tab panes -->
+                                      <div class="tab-content pb-2 px-2">
+                                        <div class="tab-pane active container" id="all">
+                                            <div class="mega-content mb-2">
+                                                <h6 class="text-uppercase font-bold">International</h6>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">IND tour of NZ</p>
+                                                             <p class="font-small font-regular text-white m-0">New Zealand vs India <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                             <p class="font-semi-small text-white m-0">3rd ODI</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">BAN tour of PAK</p>
+                                                             <p class="font-small font-regular text-white m-0">Pakistan vs Bangladesh</p>
+                                                             <p class="font-semi-small text-white m-0">1st Test</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">ENG tour of SA</p>
+                                                             <p class="font-small font-regular text-white m-0">South Africa vs England</p>
+                                                             <p class="font-semi-small text-white m-0">3rd ODI</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">ICC CWC League Two 2019-22</p>
+                                                             <p class="font-small font-regular text-white m-0">United States vs Oman</p>
+                                                             <p class="font-semi-small text-white m-0">5th Match</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">Womens T20I Tri-Series</p>
+                                                             <p class="font-small font-regular text-white m-0">Australia Women vs India Women</p>
+                                                             <p class="font-semi-small text-white m-0">Final</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mega-content">
+                                                <h6 class="text-uppercase font-bold">Domestic</h6>
+                                                <p class="font-regular text-white m-0">Ranji Trophy</p>
+                                                <div class="row">                                                   
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                             <p class="font-small font-regular text-white m-0">Gujarat vs Andhra </p>
+                                                             <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                            <p class="font-small font-regular text-white m-0">New Zealand vs India <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                             <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                             <p class="font-small font-regular text-white m-0">Mumbai vs Madhya Pradesh</p>
+                                                             <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                            <p class="font-small font-regular text-white m-0">Uttar Pradesh vs Himachal Pradesh</p>
+                                                            <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                       </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                            <p class="font-small font-regular text-white m-0">Jammu and Kashmir vs Haryana <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                            <p class="font-semi-small text-white m-0">Round 9, Elite Group C</p>
+                                                       </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mega-content mb-2">
+                                                <h6 class="text-uppercase font-bold">Local</h6>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">Home Ground, Bengaluru (Bangalore)</p>
+                                                             <p class="font-small font-regular text-white m-0">Avengers_MS  vs Spartans_MS <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                             <p class="font-semi-small text-white m-0">5 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">GIM Cricket Ground, Sanquelim</p>
+                                                             <p class="font-small font-regular text-white m-0">Staff of GIM vs Students GIM</p>
+                                                             <p class="font-semi-small text-white m-0">4 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">Shree Sevalala Cricket Tournament Banjara Colony...</p>
+                                                             <p class="font-small font-regular text-white m-0">Gokul Road  vs  VMCC Hosur  <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                             <p class="font-semi-small text-white m-0">8 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">College Ground, Kottayam</p>
+                                                             <p class="font-small font-regular text-white m-0">Physics XI vs  Chemistry X1</p>
+                                                             <p class="font-semi-small text-white m-0">10 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">Eden Park Bakiya, Satna</p>
+                                                             <p class="font-small font-regular text-white m-0">Thunder Bolt Bakiya vs Bakiya Knight Riders </p>
+                                                             <p class="font-semi-small text-white m-0">10 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container" id="live">
+                                         <div class="mega-content mb-2">
+                                            <h6 class="text-uppercase font-bold">International</h6>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="block-content mb-4">                                                             
+                                                         <p class="font-regular text-white m-0">IND tour of NZ</p>
+                                                         <p class="font-small font-regular text-white m-0">New Zealand vs India <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                         <p class="font-semi-small text-white m-0">3rd ODI</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mega-content">
+                                         <h6 class="text-uppercase font-bold">Domestic</h6>
+                                         <p class="font-regular text-white m-0">Ranji Trophy</p>
+                                         <div class="row">
+                                             <div class="col-md-4">
+                                                 <div class="block-content mb-4">                                                                                                                         
+                                                     <p class="font-small font-regular text-white m-0">Jammu and Kashmir vs Haryana <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                      <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="mega-content mb-2">
+                                      <h6 class="text-uppercase font-bold">Local</h6>
+                                      <div class="row">
+                                          <div class="col-md-4">
+                                              <div class="block-content mb-4">                                                             
+                                                   <p class="font-regular text-white m-0">Home Ground, Bengaluru (Bangalore)</p>
+                                                   <p class="font-small font-regular text-white m-0">Avengers_MS  vs Spartans_MS <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                   <p class="font-semi-small text-white m-0">5 Overs Completed</p>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="block-content mb-4">                                                             
+                                                   <p class="font-regular text-white m-0">Shree Sevalala Cricket Tournament Banjara Colony...</p>
+                                                   <p class="font-small font-regular text-white m-0">Gokul Road  vs  VMCC Hosur  <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                   <p class="font-semi-small text-white m-0">8 Overs Completed</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                        </div>
+                                        <div class="tab-pane container" id="today">
+                                         <div class="mega-content mb-2">
+                                            <h6 class="text-uppercase font-bold">International</h6>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="block-content mb-4">                                                             
+                                                         <p class="font-regular text-white m-0">IND tour of NZ</p>
+                                                         <p class="font-small font-regular text-white m-0">New Zealand vs India <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                         <p class="font-semi-small text-white m-0">3rd ODI</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mega-content">
+                                         <h6 class="text-uppercase font-bold">Domestic</h6>
+                                         <p class="font-regular text-white m-0">Ranji Trophy</p>
+                                         <div class="row">
+                                             <div class="col-md-4">
+                                                 <div class="block-content mb-4">                                                                                                                         
+                                                     <p class="font-small font-regular text-white m-0">Jammu and Kashmir vs Haryana <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                      <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         </div>
+                                         <div class="mega-content mb-2">
+                                             <h6 class="text-uppercase font-bold">Local</h6>
+                                             <div class="row">
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">Home Ground, Bengaluru (Bangalore)</p>
+                                                          <p class="font-small font-regular text-white m-0">Avengers_MS  vs Spartans_MS <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                          <p class="font-semi-small text-white m-0">5 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">GIM Cricket Ground, Sanquelim</p>
+                                                          <p class="font-small font-regular text-white m-0">Staff of GIM vs Students GIM</p>
+                                                          <p class="font-semi-small text-white m-0">4 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">Shree Sevalala Cricket Tournament Banjara Colony...</p>
+                                                          <p class="font-small font-regular text-white m-0">Gokul Road  vs  VMCC Hosur  <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                          <p class="font-semi-small text-white m-0">8 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">College Ground, Kottayam</p>
+                                                          <p class="font-small font-regular text-white m-0">Physics XI vs  Chemistry X1</p>
+                                                          <p class="font-semi-small text-white m-0">10 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">Eden Park Bakiya, Satna</p>
+                                                          <p class="font-small font-regular text-white m-0">Thunder Bolt Bakiya vs Bakiya Knight Riders </p>
+                                                          <p class="font-semi-small text-white m-0">10 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>     
+               <div class="player-details-section my-3">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-lg-12">
+                            <div class="player-detail-content bg-white border-light-grey radius-normal p-2">
+                                <div class="header-section mb-2">
+                                    <div class="d-flex align-items-center">
+                                        <img src="../images/team-detail/virat.png" class="player-pro-img mr-3"/>
+                                        <div class="d-block">
+                                            <h4 class="text-black font-bold mb-0">
+                                                Virat Kohli
+                                            </h4>
+                                            <p class="text-grey">
+                                                India
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="bg-sky border-light-grey radius-normal p-2">
+                                            <div class="player-data">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-12">
+                                                        <div class="d-block">
+                                                            <div class="section-title mb-2">
+                                                                <p class="text-black font-bold">
+                                                                    Personal Information
+                                                                </p>
+                                                            </div>
+                                                            <div class="section-data">
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black">
+                                                                                Born
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <p class="text-grey">
+                                                                                Nov 05, 1988 (31 years)
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black">
+                                                                                Birth Place
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <p class="text-grey">
+                                                                                Delhi
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black">
+                                                                                Height
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <p class="text-grey">
+                                                                                5 ft 9 in (175 cm)
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black">
+                                                                                Role
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <p class="text-grey">
+                                                                                Batsman
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black">
+                                                                                Batting Style
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <p class="text-grey">
+                                                                                Right Handed Bat
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black">
+                                                                                Bowling Style
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <p class="text-grey">
+                                                                                Right-arm-medium
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-lg-12">
+                                                        <div class="d-block mt-2 mt-sm-0 mt-lg-2">
+                                                            <div class="section-title mb-2">
+                                                                <p class="text-black font-bold">
+                                                                    Icc Rankings
+                                                                </p>
+                                                            </div>
+                                                            <div class="section-data">
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black">
+                                                                                &nbsp;
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <div class="d-block">
+                                                                                <div class="row">
+                                                                                    <div class="col-4">
+                                                                                        <p class="text-grey">Test</p>
+                                                                                    </div>
+                                                                                    <div class="col-4">
+                                                                                        <p class="text-grey">Odi</p>
+                                                                                    </div>
+                                                                                    <div class="col-4">
+                                                                                        <p class="text-grey">T20</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black">
+                                                                                Batting
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <div class="d-block">
+                                                                                <div class="row">
+                                                                                    <div class="col-4">
+                                                                                        <p class="text-grey">1</p>
+                                                                                    </div>
+                                                                                    <div class="col-4">
+                                                                                        <p class="text-grey">1</p>
+                                                                                    </div>
+                                                                                    <div class="col-4">
+                                                                                        <p class="text-grey">1</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black">
+                                                                                Bowling
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <div class="d-block">
+                                                                                <div class="row">
+                                                                                    <div class="col-4">
+                                                                                        <p class="text-grey">--</p>
+                                                                                    </div>
+                                                                                    <div class="col-4">
+                                                                                        <p class="text-grey">--</p>
+                                                                                    </div>
+                                                                                    <div class="col-4">
+                                                                                        <p class="text-grey">--</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-2">
+                                                                    <div class="row">
+                                                                        <div class="col-5">
+                                                                            <p class="text-black font-bold">
+                                                                                Teams
+                                                                            </p>    
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <p class="text-grey">
+                                                                                India, Delhi, India Red, India U19, Royal Challengers Bangalore, Board Presidents XI, North Zone, Indians, India A
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="section-data mb-4">
+                                            <div class="section-title mb-2">
+                                                <h5 class="text-black font-bold">Batting Career Summary</h5>
+                                            </div>
+                                            <div class="scorecard-table batting-data ">
+                                                <table class="w-100">
+                                                    <thead class="text-uppercase bg-grey border-light-grey radius-normal p-1">
+                                                        <tr>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">&nbsp;</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">M</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">Inn </p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">NO</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">RUNS</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">HS</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">AVG</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">BF</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">SR</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">100</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">200</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">50</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">4S</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">6S</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="font-black p-1">
+                                                        <tr>
+                                                            <td>
+                                                                <p class="text-blue font-bold mx-2 my-2">
+                                                                    Test
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="text-black">
+                                                                    <p class="mx-2 my-2">
+                                                                        84
+                                                                    </p>
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    141
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    10
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    7202
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    254
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    54.98
+                                                                </p>
+                                                            </td><td>
+                                                                <p class="mx-2 my-2">
+                                                                    12457
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    57.81
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    27
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    7
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    22
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    805
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    22
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p class="text-blue font-bold mx-2 my-2">
+                                                                    ODI
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="text-black">
+                                                                    <p class="mx-2 my-2">
+                                                                        284
+                                                                    </p>
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    239
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    39
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    11867
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    183
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    59.31
+                                                                </p>
+                                                            </td><td>
+                                                                <p class="mx-2 my-2">
+                                                                    12726
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    93.25
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    43
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    58
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    1116
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    122
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p class="text-blue font-bold mx-2 my-2">
+                                                                    T20I
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="text-black">
+                                                                    <p class="mx-2 my-2">
+                                                                        81
+                                                                    </p>
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    76
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    21
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    2794
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    94
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    50.8
+                                                                </p>
+                                                            </td><td>
+                                                                <p class="mx-2 my-2">
+                                                                    2021
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    138.25
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    24
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    258
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    76
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p class="text-blue font-bold mx-2 my-2">
+                                                                    IPL
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="text-black">
+                                                                    <p class="mx-2 my-2">
+                                                                        177
+                                                                    </p>
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    169
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    26
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    5412
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    113
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    37.85
+                                                                </p>
+                                                            </td><td>
+                                                                <p class="mx-2 my-2">
+                                                                    4112
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    138.61
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    5
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    36
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    480
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    190
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="section-data mb-4">
+                                            <div class="section-title mb-2">
+                                                <h5 class="text-black font-bold">Bowling Career Summary</h5>
+                                            </div>
+                                            <div class="scorecard-table batting-data ">
+                                                <table class="w-100">
+                                                    <thead class="text-uppercase bg-grey border-light-grey radius-normal p-1">
+                                                        <tr>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">&nbsp;</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">M</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">Inn </p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">B</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">RUNS</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">WIKTS</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">BBI</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">BBM</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">ECON</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">AVG</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">SR</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">5W</p>
+                                                            </th>
+                                                            <th>
+                                                                <p class="text-uppercase font-regular text-grey mx-2 mb-0">10W</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="font-black p-1">
+                                                        <tr>
+                                                            <td>
+                                                                <p class="text-blue font-bold mx-2 my-2">
+                                                                    Test
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="text-black">
+                                                                    <p class="mx-2 my-2">
+                                                                        84
+                                                                    </p>
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    10
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    169
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    80
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0 / 0
+                                                                </p>
+                                                            </td><td>
+                                                                <p class="mx-2 my-2">
+                                                                    0 / 0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    2.84
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0.0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0.0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p class="text-blue font-bold mx-2 my-2">
+                                                                    ODI
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="text-black">
+                                                                    <p class="mx-2 my-2">
+                                                                        284
+                                                                    </p>
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    48
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    641
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    665
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    4
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    1 / 15
+                                                                </p>
+                                                            </td><td>
+                                                                <p class="mx-2 my-2">
+                                                                    1 / 15
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    6.22
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    166.25
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    160.25
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p class="text-blue font-bold mx-2 my-2">
+                                                                    T20I
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="text-black">
+                                                                    <p class="mx-2 my-2">
+                                                                        81
+                                                                    </p>
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    12
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    146
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    198
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    4
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    1 / 13
+                                                                </p>
+                                                            </td><td>
+                                                                <p class="mx-2 my-2">
+                                                                    1 / 13
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    8.14
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    49.5
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    36.5
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p class="text-blue font-bold mx-2 my-2">
+                                                                    IPL
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#" class="text-black">
+                                                                    <p class="mx-2 my-2">
+                                                                        177
+                                                                    </p>
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    26
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    251
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    368
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    4
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    2 / 25
+                                                                </p>
+                                                            </td><td>
+                                                                <p class="mx-2 my-2">
+                                                                    2 / 25
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    8.8
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    92.0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    62.75
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p class="mx-2 my-2">
+                                                                    0
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="section-data mb-4">
+                                            <div class="section-title mb-3">
+                                                <p class="font-bold text-black">
+                                                    Career Information
+                                                </p>
+                                            </div>
+                                            <div class="section-info">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <p class="text-black">Test debut</p>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <p class="text-blue">vs West Indies at Sabina Park, Jun 20, 2011</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section-info">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <p class="text-black">Last Test</p>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <p class="text-blue">vs Bangladesh at Eden Gardens, Nov 22, 2019</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section-info">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <p class="text-black">ODI debut</p>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <p class="text-blue">vs Sri Lanka at Rangiri Dambulla International Stadium, Aug 18, 2008</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section-info">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <p class="text-black">Last ODI</p>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <p class="text-blue">vs New Zealand at Bay Oval, Feb 11, 2020</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section-info">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <p class="text-black">T20 debut</p>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <p class="text-blue">vs Zimbabwe at Harare Sports Club, Jun 12, 2010</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section-info">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <p class="text-black">Last T20</p>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <p class="text-blue">vs New Zealand at Sky Stadium, Jan 31, 2020</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section-info">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <p class="text-black">IPL debut</p>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <p class="text-blue">vs Kolkata Knight Riders at M.Chinnaswamy Stadium, Apr 18, 2008</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section-info">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <p class="text-black">Last IPL</p>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <p class="text-blue">vs Sunrisers Hyderabad at M.Chinnaswamy Stadium, May 04, 2019</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="section-data mb-3">
+                                            <div class="section-title">
+                                                <p class="text-black font-bold">
+                                                    Profile :
+                                                </p>
+                                            </div>
+                                            <div class="section-info mb-3">
+                                                <p class="text-grey">
+                                                    A spunky, chubby teenager with gelled hair shot to fame after leading India to glory in the Under-19 World Cup at Kuala Lumpur in early 2008. In an Indian team filled with saint-like icons worthy of their own hagiographies, Virat Kohli, with his most un-Indian, 'bad-boy' intensity, would clearly be an outcast.
+                                                </p>
+                                            </div>
+                                            <div class="section-info mb-3">
+                                                <p class="text-grey">
+                                                    Grind through the ranks <br/> He soon joined the senior Men in Blue in Sri Lanka, come August 2008. In the absence of the regular openers, Virat Kohli was given a chance to open the batting in the ODI series. He played some commendable knocks in his extended run as an opener, as India went on to win the ODI series. However, the established and formidable pair of Tendulkar and Sehwag kept Kohli out of the team
+                                                </p>
+                                            </div>
+                                            <div class="section-info mb-3">
+                                                <p class="text-grey">
+                                                    The 20-year-old continued to impress for Delhi and dominated attacks, clearly demonstrating that he belonged at a much higher level; that junior cricket was beneath his standards. Kohli then traveled to Australia in 2009 for the Emerging players tournament and stamped his authority all over the bowling attacks. He added 'big-match temperament' to his résumé too, lacing a fluent hundred in the final against South Africa, and guiding his team to a clinical victory. The young prodigy, barely old enough to receive his man-of-the-match champagne, ended the tournament with 398 runs from 7 outings with two centuries and two fifties, ensuring that he remained fresh in the selectors' minds.
+                                                </p>
+                                            </div>
+                                            <div class="section-info mb-3">
+                                                <p class="text-grey">
+                                                    Cementing a national spot <br/> The selectors had no choice but to give Kohli another go in the Indian side, and this time he strung together a number of impressive scores. After being given an extended run, he repaid their faith by notching up his maiden ODI hundred in an impressive run-chase against Sri Lanka in December 2009 - his first of many exemplary knocks in run-chases. In the World Cup final of 2011, the biggest stage of them all, Kohli, along with his Delhi teammate Gautam Gambhir, pulled off a largely underrated rescue effort with an 83-run stand after losing the openers early. This knock played a crucial role in setting the platform for MS Dhoni's fabled knock of 91*, which eventually won India the World Cup on that enchanting evening in Mumbai.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- main content -->  
+      </div>
+      <!-- footer section -->
+      <footer class="custom-footer text-white text-center text-md-left text-lg-left bg-blue">
+        <section class="footer-top section-spacer">
+           <div class="container">
+              <div class="row align-items-center">
+                 <div class="col-md-2 col-lg-2">
+                    <img src="../images/Cricfeed.png" class="fooer-logo">
+                 </div>
+                 <div class="col-md-7 col-lg-8">
+                   <secton class="group-icon d-block d-md-flex d-lg-flex justify-content-center mb-2 mb-md-0 mb-lg-0">
+                    <a href="javascript:void(0);" class="mr-2"><img src="../images/Vector Smart Object.png" class="mx-0 mx-md-2 mt-3 mt-md-0 m--lg-0 w-50 w-md-100 w-lg-auto"></a>
+                    <a href="javascript:void(0);" class="ml-2"><img src="../images/Google Play copy.png" class="mx-md-2-2 mt-3 mt-md-0 m--lg-0 w-50 w-md-100 w-lg-auto"></a>
+                   </secton>
+                 </div>
+                 <div class="col-md-3 col-lg-2">
+                   <section class="inner-content justify-content-end float-lg-right">
+                      <h5 class="text-white font-bold">
+                       Follow Us
+                      </h5>
+                      <div class="social-icons d-flex justify-content-center float-lg-right">
+                       <a href="javascript:void(0);" class="text-white"><i class="flaticon-facebook icon-mr d-flex align-items-center justify-content-center icon-f mr-2"></i></a>
+                       <a href="javascript:void(0);" class="text-white"><i class="flaticon-twitter icon-mr d-flex align-items-center justify-content-center icon-t mr-2"></i></a>
+                       <a href="javascript:void(0);" class="text-white"><i class="flaticon-instagram-sketched icon-mr d-flex align-items-center 
+                          justify-content-center icon-insta mr-2"></i></a>
+                          <a href="javascript:void(0);" class="text-white"><i class="flaticon-youtube-1 icon-mr d-flex align-items-center justify-content-center 
+                             icon-youtube mr-2"></i></a>                    
+                      </div>
+                   </section>
+                 </div>
+              </div>
+           </div>
+        </section>
+        <section class="footer-copyright text-center py-3">
+           <div class="container">
+              <div class="block-content d-block d-md-flex d-lg-flex justify-content-center">
+                 <p class="text-white font-light m-0 text-medium">Copyright    &#169; 2019.      All Rights Reserved.</p>
+                 <ul class="footer-bottom-menu d-flex justify-content-center m-0 pl-3 ">
+                    <li class="mx-2 list-style-none"><a href="javascript:void(0);" class="text-medium text-white font-light position-relative ">Privacy Policy</a></li>
+                    <li class="mx-2 list-style-none"><a href="javascript:void(0);" class="text-medium text-white font-light position-relative">Terms of Services</a></li>
+                 </ul>
+              </div>
+           </div>
+        </section>
+     </footer>
+      <!-- footer section -->
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script type="text/javascript" src="../js/custom.js"></script>
+   </body>
+</html>

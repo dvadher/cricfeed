@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Cricfeed</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <meta http-equiv="x-ua-compatible" content="IE=10">
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <link rel="stylesheet" href="../css/bootstrap_limitless.min.css">
+      <link rel="stylesheet" href="../css/layout.min.css">
+      <link rel="stylesheet" href="../css/components.min.css">
+      <link rel="stylesheet" href="../css/font/fontawesome/styles.min.css">
+      <link rel="stylesheet" href="../css/font/icomoon/styles.css">
+      <link rel="stylesheet" href="../css/font/flaticons/flaticon.css">
+      <link rel="stylesheet" href="../css/font/fonts/fonts.css">
+      <link rel="stylesheet" href="../css/custom.css">
+      <link rel="stylesheet" href="../css/new_custom.css">
+      <script type="text/javascript" src="../js/jquery.min.js"></script>
+      <script type="text/javascript" src="../js/blockui.min.js"></script>
+      <script type="text/javascript" src="../js/uniform.min.js"></script>
+      <script type="text/javascript" src="../js/app.js"></script>
+      <script type="text/javascript" src="../js/jquery.ui.min.js"></script>
+      <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="../js/jquery.mmenu.min.all.js"></script> 
+      <script type="text/javascript" src="../js/validate.min.js"></script>
+      <script type="text/javascript" src="../js/bootstrap_multiselect.js"></script>
+      <script type="text/javascript" src="../js/select2.min.js"></script> 
+      <script type="text/javascript" src="../js/navbar_multiple.js"></script>
+      <script type="text/javascript" src="../js/navbar_multiple_sticky.js"></script>
+      <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+      <script type="text/javascript" src="../js/bootstrap-datepicker.js"></script>
+   </head>
+   <body id="body">
+    <header class="custom-header" id="custom-header">
+        <div class="container">
+            <div class="navbar navbar-expand-lg navbar-light bg-blue navbar-sticky border-0">
+
+                <div class="navbar-brand">
+                    <a href="javascript:void(0);" class="d-inline-block">
+                        <img src="../images/Cricfeed.png" alt="Cricfeed">
+                    </a>
+                </div>
+                <div class="d-lg-none">
+                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-navigation" aria-expanded="false">
+                        <i class="flaticon-null"></i>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar-navigation">
+                    <div class="d-lg-none d-lg-block jb_front_nav_close">
+                        <button type="button" class="navbar-toggler collapsed jb_front_nav_close">
+                            <i class="flaticon-cancel"></i>
+                        </button>
+                    </div>
+                    <ul class="p-0 nav navbar-nav ml-sm-auto ml-xl-auto align-items-baseline align-items-md-baseline align-items-lg-center">
+                        <li class="nav-item float-left"><a href="javascript:void(0)" class="navbar-nav-link position-relative text-white text-medium font-light">Live Scores</a></li>
+                        <li class="nav-item float-left"><a href="javascript:void(0)" class="navbar-nav-link position-relative text-white text-medium font-light">Schedule </a></li>
+                        <li class="nav-item float-left"><a href="javascript:void(0)" class="navbar-nav-link position-relative text-white text-medium font-light">Archives</a></li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                         News </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">All Stories</a></li>
+                                <li><a href="javascript:void(0);">Latest News</a></li>
+                                <li><a href="javascript:void(0);">Topics</a></li>
+                                <li><a href="javascript:void(0);">Spotlight</a></li>
+                                <li><a href="javascript:void(0);">Opinions</a></li>
+                                <li><a href="javascript:void(0);">Specials</a></li>
+                                <li><a href="javascript:void(0);">Stats & Analysis</a></li>
+                                <li><a href="javascript:void(0);">Interviews</a></li>
+                                <li><a href="javascript:void(0);">Live Blogs</a></li>
+                                <li><a href="javascript:void(0);">Harsha Bhogle</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                        Series </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">ICC Womens T20 World Cup 2020</a></li>
+                                <li><a href="javascript:void(0);">Australia tour of South Africa, 2020</a></li>
+                                <li><a href="javascript:void(0);">West Indies tour of Sri Lanka, 2020</a></li>
+                                <li><a href="javascript:void(0);">Zimbabwe tour of Bangladesh, 2020</a></li>
+                                <li><a href="javascript:void(0);">Pakistan Super League 2020</a></li>
+                                <li><a href="javascript:void(0);">Ranji Trophy 2019-20</a></li>
+                                <li><a href="javascript:void(0);">All Series »</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                           Teams </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0 mega-menu-teams">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="inner-content">
+                                            <h6 class="mega-menu-heading pb-0 text-blue">Test Teams</h6>
+                                            <div class="menu-list">
+                                                <a href="javascript:void(0);" class="d-block">India</a>
+                                                <a href="javascript:void(0);" class="d-block">Ireland</a>
+                                                <a href="javascript:void(0);" class="d-block">Pakistan</a>
+                                                <a href="javascript:void(0);" class="d-block">Australia</a>
+                                                <a href="javascript:void(0);" class="d-block">Sri Lanka</a>
+                                                <a href="javascript:void(0);" class="d-block">Bangladesh</a>
+                                                <a href="javascript:void(0);" class="d-block">England</a>
+                                                <a href="javascript:void(0);" class="d-block">West Indies</a>
+                                                <a href="javascript:void(0);" class="d-block">South Africa</a>
+                                                <a href="javascript:void(0);" class="d-block">Zimbabwe</a>
+                                                <a href="javascript:void(0);" class="d-block">New Zealand</a>
+                                                <a href="javascript:void(0);" class="d-block">Afghanistan</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="inner-content">
+                                            <h6 class="mega-menu-heading pb-0 text-blue">Associate</h6>
+                                            <div class="menu-list">
+                                                <a href="javascript:void(0);" class="d-block">Iran</a>
+                                                <a href="javascript:void(0);" class="d-block">Italy</a>
+                                                <a href="javascript:void(0);" class="d-block">Botswana</a>
+                                                <a href="javascript:void(0);" class="d-block">Belgium</a>
+                                                <a href="javascript:void(0);" class="d-block">Namibia</a>
+                                                <a href="javascript:void(0);" class="d-block">Denmark</a>
+                                                <a href="javascript:void(0);" class="d-block">Singapore</a>
+                                                <a href="javascript:void(0);" class="d-block">Netherlands</a>
+                                                <a href="javascript:void(0);" class="d-block">Bermuda</a>
+                                                <a href="javascript:void(0);" class="d-block">Canada</a>
+                                                <a href="javascript:void(0);" class="d-block">Uganda</a>
+                                                <a href="javascript:void(0);" class="d-block">Scotland</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                           Videos </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">All Videos</a></li>
+                                <li><a href="javascript:void(0);">Categories</a></li>
+                                <li><a href="javascript:void(0);">Playlists</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                           Rankings </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">All Videos</a></li>
+                                <li><a href="javascript:void(0);">Categories</a></li>
+                                <li><a href="javascript:void(0);">Playlists</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left position-relative"><a href="./pages/news.html" class="navbar-nav-link position-relative text-white text-medium font-light dropdown-toggle" data-toggle="dropdown">
+                           More </a>
+                            <ul class="dropdown-menu top-header-mega-menu mega-menu p-0 m-0">
+                                <li><a href="javascript:void(0);">Photos</a></li>
+                                <li><a href="javascript:void(0);">Mobile Apps</a></li>
+                                <li><a href="javascript:void(0);">Careers</a></li>
+                                <li><a href="javascript:void(0);">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item float-left search-box position-relative">
+                            <input type="text" name="search" aria-required="true" class="form-control pl-2" placeholder="Search" required="">
+                            <i class="flaticon-search search-icon position-absolute icon-mr"></i>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+      <div class="main_page" id="news-page">
+         <!-- main content -->
+         <div class="page-content">
+            <div class="content-wrapper">
+                <div class="block-header">
+                    <div class="container">
+                        <div class="mega-menu-list bg-mega-menu">
+                            <div class="row align-items-center">
+                               <div class="col-9 col-md-10 col-lg-11">
+                                    <ul class="mega-menu d-flex p-0 m-0 bg-black">
+                                        <li><a href="javascript:void(0);" class="text-white d-block bg-light-black">MATCHES</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">USA vs OMAN- Live</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">NZ vs IND - NZ Won</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">PAK vs BAN - PAK Won</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">RSA vs  ENG - ENG Won</a></li>
+                                        <li><a href="javascript:void(0);" class="text-white d-block">AUS vs INDW - Previe...</a></li>
+                                    </ul>
+                               </div> 
+                               <div class="col-3 col-md-2 col-lg-1">
+                                <button class="mega-all-btn bg-transparent shadow-none border-0 text-white btn-filter font-bold close-btn d-flex align-items-center justify-content-center">
+                                   <span class="mega-btn-text">All</span>
+                                   <i class="flaticon-download icon-mr"></i></button>
+                           </div>
+                            </div>
+                            <div class="matches mt-0">
+                                <div class="mega-dropdown-tab">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                          <a class="nav-link text-white bg-transparent border-top-0 border-left-0 border-right-0 active" data-toggle="tab" href="#all">All</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-white bg-transparent border-top-0 border-left-0 border-right-0" data-toggle="tab" href="#live">Live</a>
+                                        </li>  
+                                        <li class="nav-item">
+                                          <a class="nav-link text-white bg-transparent border-top-0 border-left-0 border-right-0" data-toggle="tab" href="#today">Today</a>
+                                        </li>
+                                      </ul>
+                                      
+                                      <!-- Tab panes -->
+                                      <div class="tab-content pb-2 px-2">
+                                        <div class="tab-pane active container" id="all">
+                                            <div class="mega-content mb-2">
+                                                <h6 class="text-uppercase font-bold">International</h6>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">IND tour of NZ</p>
+                                                             <p class="font-small font-regular text-white m-0">New Zealand vs India <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                             <p class="font-semi-small text-white m-0">3rd ODI</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">BAN tour of PAK</p>
+                                                             <p class="font-small font-regular text-white m-0">Pakistan vs Bangladesh</p>
+                                                             <p class="font-semi-small text-white m-0">1st Test</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">ENG tour of SA</p>
+                                                             <p class="font-small font-regular text-white m-0">South Africa vs England</p>
+                                                             <p class="font-semi-small text-white m-0">3rd ODI</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">ICC CWC League Two 2019-22</p>
+                                                             <p class="font-small font-regular text-white m-0">United States vs Oman</p>
+                                                             <p class="font-semi-small text-white m-0">5th Match</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">Womens T20I Tri-Series</p>
+                                                             <p class="font-small font-regular text-white m-0">Australia Women vs India Women</p>
+                                                             <p class="font-semi-small text-white m-0">Final</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mega-content">
+                                                <h6 class="text-uppercase font-bold">Domestic</h6>
+                                                <p class="font-regular text-white m-0">Ranji Trophy</p>
+                                                <div class="row">                                                   
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                             <p class="font-small font-regular text-white m-0">Gujarat vs Andhra </p>
+                                                             <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                            <p class="font-small font-regular text-white m-0">New Zealand vs India <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                             <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                             <p class="font-small font-regular text-white m-0">Mumbai vs Madhya Pradesh</p>
+                                                             <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                            <p class="font-small font-regular text-white m-0">Uttar Pradesh vs Himachal Pradesh</p>
+                                                            <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                       </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                                                                                         
+                                                            <p class="font-small font-regular text-white m-0">Jammu and Kashmir vs Haryana <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                            <p class="font-semi-small text-white m-0">Round 9, Elite Group C</p>
+                                                       </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mega-content mb-2">
+                                                <h6 class="text-uppercase font-bold">Local</h6>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">Home Ground, Bengaluru (Bangalore)</p>
+                                                             <p class="font-small font-regular text-white m-0">Avengers_MS  vs Spartans_MS <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                             <p class="font-semi-small text-white m-0">5 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">GIM Cricket Ground, Sanquelim</p>
+                                                             <p class="font-small font-regular text-white m-0">Staff of GIM vs Students GIM</p>
+                                                             <p class="font-semi-small text-white m-0">4 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">Shree Sevalala Cricket Tournament Banjara Colony...</p>
+                                                             <p class="font-small font-regular text-white m-0">Gokul Road  vs  VMCC Hosur  <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                             <p class="font-semi-small text-white m-0">8 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">College Ground, Kottayam</p>
+                                                             <p class="font-small font-regular text-white m-0">Physics XI vs  Chemistry X1</p>
+                                                             <p class="font-semi-small text-white m-0">10 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="block-content mb-4">                                                             
+                                                             <p class="font-regular text-white m-0">Eden Park Bakiya, Satna</p>
+                                                             <p class="font-small font-regular text-white m-0">Thunder Bolt Bakiya vs Bakiya Knight Riders </p>
+                                                             <p class="font-semi-small text-white m-0">10 Overs Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container" id="live">
+                                         <div class="mega-content mb-2">
+                                            <h6 class="text-uppercase font-bold">International</h6>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="block-content mb-4">                                                             
+                                                         <p class="font-regular text-white m-0">IND tour of NZ</p>
+                                                         <p class="font-small font-regular text-white m-0">New Zealand vs India <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                         <p class="font-semi-small text-white m-0">3rd ODI</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mega-content">
+                                         <h6 class="text-uppercase font-bold">Domestic</h6>
+                                         <p class="font-regular text-white m-0">Ranji Trophy</p>
+                                         <div class="row">
+                                             <div class="col-md-4">
+                                                 <div class="block-content mb-4">                                                                                                                         
+                                                     <p class="font-small font-regular text-white m-0">Jammu and Kashmir vs Haryana <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                      <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="mega-content mb-2">
+                                      <h6 class="text-uppercase font-bold">Local</h6>
+                                      <div class="row">
+                                          <div class="col-md-4">
+                                              <div class="block-content mb-4">                                                             
+                                                   <p class="font-regular text-white m-0">Home Ground, Bengaluru (Bangalore)</p>
+                                                   <p class="font-small font-regular text-white m-0">Avengers_MS  vs Spartans_MS <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                   <p class="font-semi-small text-white m-0">5 Overs Completed</p>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="block-content mb-4">                                                             
+                                                   <p class="font-regular text-white m-0">Shree Sevalala Cricket Tournament Banjara Colony...</p>
+                                                   <p class="font-small font-regular text-white m-0">Gokul Road  vs  VMCC Hosur  <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                   <p class="font-semi-small text-white m-0">8 Overs Completed</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                        </div>
+                                        <div class="tab-pane container" id="today">
+                                         <div class="mega-content mb-2">
+                                            <h6 class="text-uppercase font-bold">International</h6>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="block-content mb-4">                                                             
+                                                         <p class="font-regular text-white m-0">IND tour of NZ</p>
+                                                         <p class="font-small font-regular text-white m-0">New Zealand vs India <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                         <p class="font-semi-small text-white m-0">3rd ODI</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mega-content">
+                                         <h6 class="text-uppercase font-bold">Domestic</h6>
+                                         <p class="font-regular text-white m-0">Ranji Trophy</p>
+                                         <div class="row">
+                                             <div class="col-md-4">
+                                                 <div class="block-content mb-4">                                                                                                                         
+                                                     <p class="font-small font-regular text-white m-0">Jammu and Kashmir vs Haryana <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                      <p class="font-semi-small text-white m-0">Round 9, Elite Group A and B</p>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         </div>
+                                         <div class="mega-content mb-2">
+                                             <h6 class="text-uppercase font-bold">Local</h6>
+                                             <div class="row">
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">Home Ground, Bengaluru (Bangalore)</p>
+                                                          <p class="font-small font-regular text-white m-0">Avengers_MS  vs Spartans_MS <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                          <p class="font-semi-small text-white m-0">5 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">GIM Cricket Ground, Sanquelim</p>
+                                                          <p class="font-small font-regular text-white m-0">Staff of GIM vs Students GIM</p>
+                                                          <p class="font-semi-small text-white m-0">4 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">Shree Sevalala Cricket Tournament Banjara Colony...</p>
+                                                          <p class="font-small font-regular text-white m-0">Gokul Road  vs  VMCC Hosur  <span class="font-semi-small ml-2 text-white live-btn radius-normal">Live</span></p>
+                                                          <p class="font-semi-small text-white m-0">8 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">College Ground, Kottayam</p>
+                                                          <p class="font-small font-regular text-white m-0">Physics XI vs  Chemistry X1</p>
+                                                          <p class="font-semi-small text-white m-0">10 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="block-content mb-4">                                                             
+                                                          <p class="font-regular text-white m-0">Eden Park Bakiya, Satna</p>
+                                                          <p class="font-small font-regular text-white m-0">Thunder Bolt Bakiya vs Bakiya Knight Riders </p>
+                                                          <p class="font-semi-small text-white m-0">10 Overs Completed</p>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>  
+                <div class="nav-banner position-relative mt-3">
+                    <div class="container">
+                        <div class="inner-content">
+                            <div class="section-title px-2">
+                                <h1 class="font-bold">
+                                    England vs South Africa, Match 1 - Live Cricket Score, Commentary
+                                </h1>
+                                <div class="row">
+                                    <div class="col-lg-9">
+                                        <div class="d-block">
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <p class="text-grey">
+                                                        <span class="text-black font-bold">
+                                                            Series : 
+                                                        </span>
+                                                        ICC Cricket World Cup 2019
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <p class="text-grey">
+                                                        <span class="text-black font-bold">
+                                                            Venue : 
+                                                        </span>
+                                                        Kennington Oval, London
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <p class="text-grey">
+                                                        <span class="text-black font-bold">
+                                                            Date & Time : 
+                                                        </span>
+                                                        May 30, 10:30 AM LOCAL
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="custom-navigation mt-2">
+                                <nav class="navbar align-items-center p-lg-0">
+                                    <!-- <h1 class="navbar-brand mb-0 h1 text-medium d-inline-block d-lg-none">Live Cricket Score</h1>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="flaticon-more"></span>
+                                    </button> -->
+                                    <div class="custom-navbar">
+                                        <ul class="d-sm-flex mb-0 pl-0">
+                                            <li class="nav-item d-inline-block mt-2 mt-sm-0 active">
+                                                <a class="nav-link text-medium" href="javascript:void(0);">Commentary<span class="sr-only">(current)</span></a>
+                                            </li>
+                                            <li class="nav-item d-inline-block mt-2 mt-sm-0">
+                                                <a class="nav-link text-medium" href="javascript:void(0);">Scorecard</a>
+                                            </li>
+                                            <li class="nav-item d-inline-block mt-2 mt-sm-0">
+                                                <a class="nav-link text-medium" href="javascript:void(0);">Points Table</a>
+                                            </li>
+                                            <li class="nav-item d-inline-block mt-2 mt-sm-0">
+                                                <a class="nav-link text-medium" href="javascript:void(0);">News</a>
+                                            </li>
+                                            <li class="nav-item d-inline-block mt-2 mt-sm-0">
+                                                <a class="nav-link text-medium" href="javascript:void(0);">Photos</a>
+                                            </li>
+                                            <li class="nav-item d-inline-block mt-2 mt-sm-0">
+                                                <a class="nav-link text-medium" href="javascript:void(0);">Videos</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="match-details-section my-3">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-lg-9">
+                            <div class="commentary-section bg-white border-light-grey radius-normal p-2">
+                                <div class="section-title mt-4">
+                                    <h1 class="text-black font-bold">
+                                        11:18:10
+                                    </h1>
+                                </div>
+                                <div class="start-time-section mt-3">
+                                    <p class="text-gray text-uppercase mb-md-0">
+                                        Start Time
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <p class="text-black font-bold">
+                                                4:00 AM
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p class="text-black font-bold d-inline-block mr-1">
+                                                10:30 PM
+                                            </p>
+                                            <span class="text-grey">
+                                                GMT
+                                            </span>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p class="text-black font-bold d-inline-block mr-1">
+                                                11:30 AM
+                                            </p>
+                                            <span class="text-grey">
+                                                LOCAL
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="squad-section mt-3">
+                                    <div class="section-title">
+                                        <h3 class="text-black font-bold">
+                                            Squads :
+                                        </h3>
+                                    </div>
+                                    <div class="section-data mt-3">
+                                        <p class="text-gray">
+                                            <b class="text-black font-bold">
+                                                India Squad : 
+                                            </b>
+                                            Shubman Gill, Mayank Agarwal, Cheteshwar Pujara, Virat Kohli(c), Ajinkya Rahane, Hanuma Vihari, Rishabh Pant(w), Ravichandran Ashwin, Mohammed Shami, Jasprit Bumrah, Ravindra Jadeja, Umesh Yadav, Prithvi Shaw, Wriddhiman Saha, Navdeep Saini
+                                        </p>
+                                        <p class="text-gray">
+                                            <b class="text-black font-bold">
+                                                New Zealand Squad : 
+                                            </b>
+                                            Tom Latham, Tom Blundell, Kane Williamson(c), Ross Taylor, Henry Nicholls, BJ Watling(w), Colin de Grandhomme, Tim Southee, Kyle Jamieson, Ajaz Patel, Trent Boult, Neil Wagner, Matt Henry, Daryl Mitchell
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="news-side-section mt-3 mt-lg-0">
+                                
+                                <div class="row">
+                                   <div class="col-12 col-sm-6 col-lg-12">
+                                      <div class="ad-section text-center text-md-left">
+                                         <a href="javascript:void:(0);"><img src="../images/ad02.png" class="ad-img"></a>
+                                     </div>
+                                   </div>
+                                   <div class="col-12 col-sm-6 col-lg-12">
+                                      <div class="right-panel radius-normal light-shadow bg-white mt-2 mt-sm-0 mt-lg-3 pt-3 pb-2 mb-4">
+                                         <div class="header-content px-1 pb-4">
+                                            <h2 class="text-black font-bold w-fit heading pb-2 text-uppercase"><i class="flaticon-newspaper icon-mr text-uppercase mr-1"></i> 
+                                              <span class="text-blue"> Latest News</span></h2>
+                                         </div>
+                                         <a href="javascript:void(0);" class="block-content px-1 d-block mb-4">
+                                            <div class="image-text position-relative radius-normal pt-5 black-overlay position-relative">
+                                               <div class="inner-content pt-5 position-relative px-2 py-1">
+                                                  <p class="text-white">Shaw returns to Test squad; 
+                                                     Mayank replaces Rohit for NZ ODIs</p>
+                                                     <p class="font-small text-white">Wed, Feb 05 2020</p>
+                                               </div>
+                                            </div>
+                                         </a>
+                                         <div class="listed-trading px-1">
+                                            <div class="listed-content-row d-block mb-4">
+                                               <a href="javascript:void(0);" class="listed-image radius-normal d-block mt-1">
+                                                  <img src="../images/Layer 29.png" class="radius-normal">
+                                               </a>
+                                               <div class="inner-content w-100 mt-2">
+                                                  <a href="javascript:void(0);" class="text-blue text-medium font-regular list-title d-block pb-1 ">Mushfiqur passes fitness 
+                                                     test, makes himself...</a>
+                                                  <p class="text-blue text-medium pt-2">1 Day Ago</p>
+                                               </div>
+                                            </div>
+                                            <div class="listed-content-row d-block mb-4">
+                                               <a href="javascript:void(0);" class="listed-image radius-normal d-block mt-1">
+                                                  <img src="../images/Layer 28.png" class="radius-normal">
+                                               </a>
+                                               <div class="inner-content w-100 mt-2">
+                                                  <a href="javascript:void(0);" class="text-blue text-medium font-regular list-title d-block pb-1">Jaffer scales Mt. 12k; 
+                                                     Andhra-Punjab play out...</a>
+                                                  <p class="text-blue text-medium pt-2">1 Day Ago</p>
+                                               </div>
+                                            </div>
+                                            <div class="listed-content-row d-block mb-4">
+                                               <a href="javascript:void(0);" class="listed-image radius-normal d-block mt-1">
+                                                  <img src="../images/Layer 29.png" class="radius-normal">
+                                               </a>
+                                               <div class="inner-content w-100 mt-2">
+                                                  <a href="javascript:void(0);" class="text-blue text-medium font-regular list-title d-block pb-1">Live Blog: South Africa vs. 
+                                                     England, 1st ODI, Cape - T...</a>
+                                                  <p class="text-blue text-medium pt-2">Mon, Feb 03 2020</p>
+                                               </div>
+                                            </div>
+                                            <div class="listed-content-row d-block mb-4">
+                                               <a href="javascript:void(0);" class="listed-image radius-normal d-block mt-1">
+                                                  <img src="../images/Layer 30.png" class="radius-normal">
+                                               </a>
+                                               <div class="inner-content w-100 mt-2">
+                                                  <a href="javascript:void(0);" class="text-blue text-medium font-regular list-title d-block pb-1">Want Rahul to get a
+                                                     customed to middle or...</a>
+                                                  <p class="text-blue text-medium pt-2">Sun, Feb 02 2020</p>
+                                               </div>
+                                            </div>
+                                         </div>
+                                         <div class="load-latest text-center text-lg-left px-1">
+                                            <a href="javascript:void(0);" class="text-blue font-small font-bold"> 
+                                                More News
+                                            </a>
+                                        </div>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- main content -->  
+      </div>
+      <!-- footer section -->
+      <footer class="custom-footer text-white text-center text-md-left text-lg-left bg-blue">
+        <section class="footer-top section-spacer">
+           <div class="container">
+              <div class="row align-items-center">
+                 <div class="col-md-2 col-lg-2">
+                    <img src="../images/Cricfeed.png" class="fooer-logo">
+                 </div>
+                 <div class="col-md-7 col-lg-8">
+                   <secton class="group-icon d-block d-md-flex d-lg-flex justify-content-center mb-2 mb-md-0 mb-lg-0">
+                    <a href="javascript:void(0);" class="mr-2"><img src="../images/Vector Smart Object.png" class="mx-0 mx-md-2 mt-3 mt-md-0 m--lg-0 w-50 w-md-100 w-lg-auto"></a>
+                    <a href="javascript:void(0);" class="ml-2"><img src="../images/Google Play copy.png" class="mx-md-2-2 mt-3 mt-md-0 m--lg-0 w-50 w-md-100 w-lg-auto"></a>
+                   </secton>
+                 </div>
+                 <div class="col-md-3 col-lg-2">
+                   <section class="inner-content justify-content-end float-lg-right">
+                      <h5 class="text-white font-bold">
+                       Follow Us
+                      </h5>
+                      <div class="social-icons d-flex justify-content-center float-lg-right">
+                       <a href="javascript:void(0);" class="text-white"><i class="flaticon-facebook icon-mr d-flex align-items-center justify-content-center icon-f mr-2"></i></a>
+                       <a href="javascript:void(0);" class="text-white"><i class="flaticon-twitter icon-mr d-flex align-items-center justify-content-center icon-t mr-2"></i></a>
+                       <a href="javascript:void(0);" class="text-white"><i class="flaticon-instagram-sketched icon-mr d-flex align-items-center 
+                          justify-content-center icon-insta mr-2"></i></a>
+                          <a href="javascript:void(0);" class="text-white"><i class="flaticon-youtube-1 icon-mr d-flex align-items-center justify-content-center 
+                             icon-youtube mr-2"></i></a>                    
+                      </div>
+                   </section>
+                 </div>
+              </div>
+           </div>
+        </section>
+        <section class="footer-copyright text-center py-3">
+           <div class="container">
+              <div class="block-content d-block d-md-flex d-lg-flex justify-content-center">
+                 <p class="text-white font-light m-0 text-medium">Copyright    &#169; 2019.      All Rights Reserved.</p>
+                 <ul class="footer-bottom-menu d-flex justify-content-center m-0 pl-3 ">
+                    <li class="mx-2 list-style-none"><a href="javascript:void(0);" class="text-medium text-white font-light position-relative ">Privacy Policy</a></li>
+                    <li class="mx-2 list-style-none"><a href="javascript:void(0);" class="text-medium text-white font-light position-relative">Terms of Services</a></li>
+                 </ul>
+              </div>
+           </div>
+        </section>
+     </footer>
+      <!-- footer section -->
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script type="text/javascript" src="../js/custom.js"></script>
+   </body>
+</html>
